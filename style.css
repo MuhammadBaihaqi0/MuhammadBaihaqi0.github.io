@@ -14,12 +14,15 @@ text-decoration: none;
 .medsos ul li {
 display: inline-block;
 color: #FFF;
-margin-right:100px;
+margin-right:10px;
 }
 .container {
     width: 80%;
     margin: 0 auto;
     border: 1px solid;
+}
+.container:after {
+
 }
 header {
     border: 1px solid;
