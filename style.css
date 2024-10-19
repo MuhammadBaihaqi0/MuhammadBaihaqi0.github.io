@@ -1,35 +1,3 @@
-padding:0;
-margin:0;
-font-family: sans-serif;
-a 
-color: inherit;
-text-decoration: none;
 
-.medsos 
-    padding: 0;
-    background-color: #148F77;
-
-.medsos ul li 
-display: inline-block;
-color: #FFF;
-margin-right:10px;
-
-.container 
-    width: 80%;
-    margin: 0 auto;
-    border: 1px solid;
- 
-
-header 
-    border: 1px solid;
-
-header h1 
-    border: 1px solid;
-    float: left;
-
-
-header ul
-    border: 1px solid;
-    float: right;
 
 
