@@ -6,7 +6,6 @@
 }
 
 body {
-    background-color: #081b29;
     color: #ededed;
 }
 
@@ -46,6 +45,9 @@ body {
 
 .home {
     height: 100vh;
+    background: url('home.jpg.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -154,6 +156,12 @@ body {
     color: #00abf0;
     text-decoration: none;
     z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.home-sci a:hover {
+    color: #081b29;
 }
 
 .home-sci a::before {
@@ -163,7 +171,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: red;
+    background: #00abf0;
     z-index: -1;
     transition: .5s;
 }
