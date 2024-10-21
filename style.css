@@ -109,5 +109,15 @@ footer {
     padding: 20px;
     text-align: center;
 }
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hubspot-dashboard {
+    max-width: 500px; /* Sesuaikan ukuran maksimal gambar */
+    border-radius: 10px; /* Berikan border radius jika ingin membuat sudut bulat */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan */
+}
 
 
