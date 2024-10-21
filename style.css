@@ -24,7 +24,7 @@ body {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #ff6600;
+    color: aqua;
 }
 
 .nav ul {
@@ -46,7 +46,7 @@ body {
 
 .cta-btn {
     padding: 10px 20px;
-    background-color: #ff6600;
+    background-color: aqua;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -54,13 +54,13 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #e65a00;
+    background-color: aqua;
 }
 
 .cta-secondary {
     background-color: transparent;
-    color: #ff6600;
-    border: 2px solid #ff6600;
+    color: aqua;
+    border: 2px solid aqua;
 }
 
 .cta-secondary:hover {
