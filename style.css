@@ -96,6 +96,11 @@ body {
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
+    transition: .5s;
+}
+
+.btn-box a:hover {
+    color: #00abf0;
 }
 
 .btn-box a:nth-child(2) {
