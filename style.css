@@ -35,4 +35,10 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
 }
