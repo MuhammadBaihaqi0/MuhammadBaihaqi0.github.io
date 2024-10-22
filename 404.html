@@ -1,10 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>404 - Halaman Tidak Ditemukan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 100px;
+            margin: 0;
+        }
+        h2 {
+            font-size: 24px;
+            margin: 10px 0 20px;
+        }
+        p {
+            font-size: 18px;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Gaya untuk karakter animasi */
+        .character {
+            width: 150px;
+            height: 150px;
+            background-color: #007bff;
+            border-radius: 50%;
+            position: relative;
+            margin: 20px auto;
+            animation: bounce 2s infinite;
+        }
+        .character::before {
+            content: "";
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+        .character::after {
+            content: "";
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 30px;
+            left: 80px;
+        }
+        /* Animasi bouncing */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-30px);
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>404</h1>
+        <h2>Halaman Tidak Ditemukan</h2>
+        <div class="character"></div>
+        <p>Maaf, halaman yang Anda cari tidak ada atau telah dipindahkan.</p>
+        <p><a href="/">Kembali ke Beranda</a></p>
+    </div>
 </body>
 </html>
