@@ -303,3 +303,16 @@ body {
         pointer-events: auto;
     }
 }
+
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #00abf0;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
