@@ -320,3 +320,8 @@ section h3 {
 .service {
     background-color: #F9F9F9;
 }
+
+.copy p {
+    background-color: black;
+    font-size: larger;
+}
