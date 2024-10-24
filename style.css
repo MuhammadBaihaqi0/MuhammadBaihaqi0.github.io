@@ -325,3 +325,19 @@ section h3 {
     background-color: black;
     font-size: larger;
 }
+
+.list i {
+    color: white;
+    font-size: 28px;
+    display: none;
+}
+
+@media only screen and (max-width :768px) {
+    .navbar a {
+        display: none;
+    }
+.list i {
+    display: flex;
+    align-items: center;
+}
+}
