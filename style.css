@@ -44,6 +44,15 @@ body {
     animation-delay: .4s;
 }
 
+.navbar {
+    display: show;
+}
+@media (max-width:644.5px) {
+    .navbar {
+        display: none;
+    }
+}
+
 .navbar a {
     font-size: 18px;
     color: #ededed;
