@@ -33,7 +33,9 @@
             <a href="https://wa.me/6281366299487">CONTACT</a>
         </nav>
         <div class="list">
-            <i class="ph ph-list"></i>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </header>
 
@@ -53,9 +55,6 @@
                 <a href="https://www.facebook.com/muhammad.siregar.1675275"><i class='bx bxl-facebook'></i></a>
                 <a href="https://www.instagram.com/muhammadbaihaqiii__/"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://www.tiktok.com/@adaaqua64"><i class='bx bxl-tiktok' ></i></a>
-            </div>
-            <div>
-                hhh
             </div>
         </div>
     </section>
@@ -106,5 +105,17 @@
             <p align="center">&copy;Muhammad Baihaqi Siregar</p>
         </div>
     </section>
+    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
 </body>
 </html>
