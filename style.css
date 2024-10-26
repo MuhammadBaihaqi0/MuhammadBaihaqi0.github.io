@@ -16,7 +16,6 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,12 +64,10 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
+    margin-top: 65px;
 }
-
-@media ()
-
 .home-content {
-    max-width: 600px;
+    margin-top: 45px;
 }
 
 .home-content h1 {
@@ -135,6 +132,7 @@ body {
     justify-content: space-between;
     width: 345px;
     height: 50px;
+    margin-bottom: 45px;
 }
 
 .home-content .btn-box::before {
