@@ -313,10 +313,11 @@ section h3 {
 }
 .about {
     background-color: tomato;
+    padding: 20px 130px 20px 130px;
 }
 
 .about p {
-    color: #666;
+    color: white;
     word-spacing: 2px;
     line-height: 25px;
 }
