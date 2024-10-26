@@ -370,3 +370,7 @@ section h3 {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.img-service {
+    width: 65px;
+}
