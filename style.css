@@ -354,3 +354,13 @@ section h3 {
     font-size: 30px;
     font-weight: 700;
 }
+.Gmail {
+    padding: 10px;
+    background: #ff6347;
+    border-radius: 8px;
+}
+.HP {
+    padding: 10px;
+    background: #ff6347;
+    border-radius: 8px;
+}
