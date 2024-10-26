@@ -10,6 +10,7 @@ body {
 }
 
 .header {
+    background-color: yellowgreen;
     position: fixed;
     top: 0;
     left: 0;
@@ -312,6 +313,9 @@ section h3 {
     color: #00abf0;
     margin-bottom: 20px;
 }
+.about {
+    background-color: tomato;
+}
 
 .about p {
     color: #666;
@@ -334,12 +338,6 @@ section h3 {
     display: none;
 }
 
-@media only screen and (max-width :768px) {
-    .navbar a {
-        display: none;
-    }
-.list i {
-    display: flex;
-    align-items: center;
-}
+.footer {
+    background-color: #00abf0;
 }
