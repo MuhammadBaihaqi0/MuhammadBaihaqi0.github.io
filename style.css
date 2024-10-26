@@ -319,7 +319,7 @@ section h3 {
     padding: 20px 311px 35px 283px;
 }
 
-@media (max-width:1839.5px) {
+@media (min-width:1839.5px) {
     .about {
         background-color: tomato;
         padding: 20px 189px 35px 175px;
