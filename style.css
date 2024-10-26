@@ -313,7 +313,7 @@ section h3 {
 }
 .about {
     background-color: tomato;
-    padding: 20px 130px 20px 130px;
+    padding: 20px 130px 35px 130px;
 }
 
 .about p {
@@ -323,7 +323,7 @@ section h3 {
 }
 
 .service {
-    background-color: #F9F9F9;
+    background-color: black;
 }
 
 .copy p {
@@ -339,4 +339,9 @@ section h3 {
 
 .footer {
     background-color: #00abf0;
+}
+
+.about h3 {
+    font-size: 30px;
+    font-weight: 700;
 }
