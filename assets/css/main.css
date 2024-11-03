@@ -313,11 +313,11 @@ body {
 .font-service {
     font-size: 30px;
     font-weight: 600;
-    color: #FFF;
+    color: black;
 }
 
 .font-small {
-    color: #FFF;
+    color: black;
 }
 
 .footer {
