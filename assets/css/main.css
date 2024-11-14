@@ -259,10 +259,10 @@ body {
 }
 
 .about {
+    background-image: url('../content/kiw.jpg)';
     display: flex;
     align-items: center;
     padding: 0 10%;
-    background-image: url(kiw.jpg);
 }
 
 .title {
